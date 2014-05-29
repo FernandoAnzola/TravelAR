@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Droidlogin</string>
+    <string name="welcome">Bienvenido a TravelAR para iniciar sesion 
+       dentro de la aplicacion Seleccione Login, si desea probar la 
+       aplicacion sin crear una cuenta de ususario seleccione Invitado
+       !conozcaun poco mas de Boyaca y sus sitios turisticos¡
+        </string>
+        <string name="login">Login</string>
+        <string name="invitado">Invitado</string>
+</resources>
