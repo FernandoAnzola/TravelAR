@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+    >
+
+    <TextView
+        android:id="@+id/registrarse"
+        android:layout_width="152dp"
+        android:layout_height="35dp"
+        android:layout_alignRight="@+id/menserror"
+        android:layout_below="@+id/menserror"
+        android:text="@string/registrarse" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="220dp"
+        android:layout_height="115dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/menserror"
+        android:layout_marginRight="29dp"
+        android:layout_marginTop="34dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/menserror"
+        android:layout_width="322dp"
+        android:layout_height="36dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="38dp"
+        android:text="@string/error" />
+
+</RelativeLayout>
